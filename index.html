@@ -31,6 +31,7 @@
     $(".nav-item > a").click(function() {              // when clicking any of these links
       $(".nav-item > a").removeClass("active");     // remove highlight from all links
       $(this).addClass("active");                 // add highlight to clicked link
+      $("#contentDiv").load("mygroups.html");
     })
   </script>
 </html>
