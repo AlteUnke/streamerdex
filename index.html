@@ -22,14 +22,14 @@
     $(function(){
       $("#contentDiv").load("main.html");
     });
-    $("#home").click(function() {
+/**    $("#home").click(function() {
       $("#contentDiv").load("main.html");
     });
     $("#mygroups").click(function() {
       $("#contentDiv").load("mygroups.html");
-    });
-    $(".nav-link > a").click(function() {              // when clicking any of these links
-      $(".nav-link > a").removeClass("active");     // remove highlight from all links
+    }); */
+    $(".nav-item > a").click(function() {              // when clicking any of these links
+      $(".nav-item > a").removeClass("active");     // remove highlight from all links
       $(this).addClass("active");                 // add highlight to clicked link
     })
   </script>
