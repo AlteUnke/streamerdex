@@ -16,18 +16,17 @@
   </body>
 
   <script>
-    $("#home").click(function() {
-      $("#contentDiv").load("main.html");
-    });
-
-    $("#mygroups").click(function() {
-      $("#contentDiv").load("mygroups.html");
-    });
     $(function(){
       $("#navbarDiv").load("navbar.html");
     });
     $(function(){
       $("#contentDiv").load("main.html");
+    });
+    $("#home").click(function() {
+      $("#contentDiv").load("main.html");
+    });
+    $("#mygroups").click(function() {
+      $("#contentDiv").load("mygroups.html");
     });
   </script>
 </html>
