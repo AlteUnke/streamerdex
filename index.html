@@ -9,16 +9,18 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
-    <div class="container" id="includedContent">
+    <div class="container" id="navbarDiv">
     </div>
-    <div class="container">
-      Main Page
+    <div class="container" id="contentDiv">
     </div>
   </body>
 
   <script>
     $(function(){
-      $("#includedContent").load("navbar.html");
+      $("#navbarDiv").load("navbar.html");
+    });
+    $(function(){
+      $("#contentDiv").load("navbar.html");
     });
   </script>
 </html>
