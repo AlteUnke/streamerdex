@@ -17,11 +17,11 @@
 
   <script>
     $("#home").click(function() {
-      alert('home clicked');
+      $("#contentDiv").load("main.html");
     });
 
     $("#link").click(function() {
-      alert('link clicked');
+      $("#contentDiv").load("mygroups.html");
     });
     $(function(){
       $("#navbarDiv").load("navbar.html");
