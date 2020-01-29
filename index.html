@@ -12,6 +12,7 @@
     <div class="container" id="navbarDiv">
     </div>
     <div class="container" id="contentDiv">
+      Main Content
     </div>
   </body>
 
@@ -19,18 +20,5 @@
     $(function(){
       $("#navbarDiv").load("navbar.html");
     });
-    $(function(){
-      $("#contentDiv").load("main.html");
-    });
-    $("#home").click(function() {
-      $("#contentDiv").load("main.html");
-    });
-    $("#mygroups").click(function() {
-      $("#contentDiv").load("mygroups.html");
-    });
-    $(".nav-item > a").click(function() {              // when clicking any of these links
-      $(".nav-item > a").removeClass("active");     // remove highlight from all links
-      $(this).addClass("active");                 // add highlight to clicked link
-    })
   </script>
 </html>
