@@ -581,6 +581,23 @@ pre code {
   margin-left: auto;
 }
 
+.container-navbar {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-wrapper {
+  width: 80%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (min-width: 576px) {
   .container, .container-sm {
     max-width: 540px;
