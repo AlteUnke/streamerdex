@@ -588,6 +588,7 @@ pre code {
   padding-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
+  background-image: linear-gradient(red, yellow);
 }
 
 .container-wrapper {
