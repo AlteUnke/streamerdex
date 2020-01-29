@@ -582,13 +582,13 @@ pre code {
 }
 
 .container-navbar {
+  background-image: linear-gradient(red, yellow);
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
   padding-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
-  background-image: linear-gradient(red, yellow);
 }
 
 .container-wrapper {
